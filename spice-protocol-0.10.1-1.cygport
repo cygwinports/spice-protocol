@@ -1,9 +1,0 @@
-
-HOMEPAGE="http://spice-space.org/"
-SRC_URI="http://spice-space.org/download/releases/${P}.tar.bz2"
-
-# nothing to compile
-src_compile() {
-	cd ${B}
-	cygconf
-}
