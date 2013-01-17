@@ -1,5 +1,5 @@
 NAME="spice-protocol"
-VERSION=0.12.2
+VERSION=0.12.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SPICE protocol headers"
