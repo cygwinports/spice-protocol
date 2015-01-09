@@ -1,5 +1,5 @@
 NAME="spice-protocol"
-VERSION=0.12.6
+VERSION=0.12.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SPICE protocol headers"
@@ -10,6 +10,8 @@ and back-end is done using VD-Interfaces, which can be easily utilitzed by a
 third-party component."
 HOMEPAGE="http://spice-space.org/"
 SRC_URI="http://spice-space.org/download/releases/${NAME}-${VERSION}.tar.bz2"
+
+ARCH=noarch
 
 # nothing to compile
 src_compile() {
