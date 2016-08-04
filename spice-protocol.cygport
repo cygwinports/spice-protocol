@@ -1,7 +1,7 @@
 inherit python
 
 NAME="spice-protocol"
-VERSION=0.12.10
+VERSION=0.12.11
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SPICE protocol headers"
@@ -24,6 +24,4 @@ src_compile() {
 src_install() {
 	cd ${B}
 	cyginstall
-
-	python_optimize /usr/lib/${NAME}/python_modules
 }
