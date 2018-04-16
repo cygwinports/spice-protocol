@@ -1,7 +1,7 @@
 inherit python2
 
 NAME="spice-protocol"
-VERSION=0.12.12
+VERSION=0.12.13
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="SPICE protocol headers"
